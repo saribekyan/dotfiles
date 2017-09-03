@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bashrc vimrc vim zshrc"    # list of files/folders to symlink in homedir
+files="bashrc bash_profile vimrc vim zshrc gitconfig"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -30,7 +30,7 @@ for file in $files; do
     ln -s $dir/$file ~/.$file
 done
 
-# vim
+# Vundle
 
 if [ ! -d ~/.vim/bundle/Vundle.vim  ];
 then

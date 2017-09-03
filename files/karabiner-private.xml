@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Cmd + D for Forward Delete</name>
+    <identifier>private.fixbackspace</identifier>
+    <autogen>__KeyToKey__ KeyCode::D, ModifierFlag::COMMAND_L, KeyCode::DELETE, ModifierFlag::FN</autogen>
+  </item>
+</root>
+

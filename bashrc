@@ -35,3 +35,6 @@ alias ls="ls -Glah"
 export CLICOLOR=1
 # Set "ls" colors
 export LSCOLORS=Gxfxcxdxbxegedabagacad
+
+export HISTSIZE=1000000000
+export HISTFILESIZE=1000000000
