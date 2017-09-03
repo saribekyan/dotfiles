@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bashrc vimrc vim zshrc oh-my-zsh private scrotwm.conf Xresources"    # list of files/folders to symlink in homedir
+files="bashrc vimrc vim zshrc"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -29,6 +29,16 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done
+
+# vim
+
+if [ ! -d ~/.vim/bundle/Vundle.vim  ];
+then
+	mkdir -p ~/.vim/bundle
+	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+fi
+
+#####
 
 install_zsh () {
 # Test to see if zshell is installed.  If it is:
@@ -63,3 +73,4 @@ fi
 }
 
 install_zsh
+
