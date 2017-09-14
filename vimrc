@@ -1,6 +1,5 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""" VUNDLE
-
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -17,6 +16,8 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugins
 Plugin 'tpope/vim-fugitive'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'saribekyan/vimwiki'
+Plugin 'mattn/calendar-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -36,6 +37,8 @@ filetype plugin indent on    " required
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+source ~/.vimwikirc
 
 set nocompatible " we want new vim features whenever they are available
 set bs=2         " backspace should work as we expect it to

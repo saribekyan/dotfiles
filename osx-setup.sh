@@ -52,3 +52,14 @@ YouRun "Install TextMate from http://macromates.com/"
 # Firefox
 YouRun "Install Firefox"
 
+# Thunderbird
+IRun "Thunderbird" "brew cask install thunderbird"
+
+# sl
+IRun "sl" "brew install sl"
+
+# inkscape
+IRun "Inkscape" "brew update
+brew cask install xquartz
+brew cask install inkscape"
+
