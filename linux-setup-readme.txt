@@ -60,3 +60,6 @@ Get it from somewhere else/the usb drive may have it.
 
 Can modify keyboard shortcuts for next/prev tab
 
+https://github.com/Anthony25/gnome-terminal-colors-solarized
+
+
