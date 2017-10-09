@@ -1,3 +1,6 @@
+export SHELL=$(which zsh)
+exec $SHELL -l
+
 ##############################################################################
 #   Filename: .bashrc                                                        #
 # Maintainer: Michael J. Smalley <michaeljsmalley@gmail.com>                 #
@@ -38,3 +41,10 @@ export LSCOLORS=Gxfxcxdxbxegedabagacad
 
 export HISTSIZE=1000000000
 export HISTFILESIZE=1000000000
+
+# Keyboard
+setxkbmap -option caps:ctrl_modifier
+
+# go home
+cd
+
