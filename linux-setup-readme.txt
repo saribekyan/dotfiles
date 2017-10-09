@@ -62,4 +62,6 @@ Can modify keyboard shortcuts for next/prev tab
 
 https://github.com/Anthony25/gnome-terminal-colors-solarized
 
+# caps lock
+setxkbmap -option caps:ctrl_modifier
 
