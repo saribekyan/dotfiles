@@ -49,6 +49,7 @@ set number       " show line numbers
 syntax enable
 set background=dark
 colorscheme solarized
+set spell
 
 set whichwrap+=<,>,h,l,[,] "changle line with arrow keys
 
