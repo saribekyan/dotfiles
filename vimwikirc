@@ -1,5 +1,5 @@
 let g:vimwiki_list = [{
-  \ 'path': '~/vimwiki',
+  \ 'path': '~/Documents/wiki-personal',
   \ 'template_path': '~/vimwiki/templates',
   \ 'template_default': 'default',
   \ 'template_ext': '.html'}]

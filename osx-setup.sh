@@ -63,3 +63,6 @@ IRun "Inkscape" "brew update
 brew cask install xquartz
 brew cask install inkscape"
 
+# languagetool
+YouRun "Install languagetool for latex"
+
