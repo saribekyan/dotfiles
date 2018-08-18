@@ -2,7 +2,7 @@
 """"""""""""""""""""""""""""""""""" VUNDLE
 set nocompatible              " be iMproved, required
 filetype off                  " required
-
+let &t_Co=256
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -47,7 +47,7 @@ set history=100  " remember last 100 commands
 set ruler        " show cursor position in the bottom line
 set number       " show line numbers
 syntax enable
-set background=dark
+set background=light
 colorscheme solarized
 set spell
 

@@ -1,5 +1,4 @@
 [alias]
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
-[user]
-	email = shaykshe@gmail.com
-	name = Hayk S
+[push]
+	default = simple
