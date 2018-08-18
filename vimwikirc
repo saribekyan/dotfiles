@@ -1,6 +1,6 @@
-let g:vimwiki_list = [{
-  \ 'path': '~/Documents/wiki-personal',
-  \ 'template_path': '~/vimwiki/templates',
-  \ 'template_default': 'default',
-  \ 'template_ext': '.html'}]
+let g:vimwiki_list = [{'path': '~/Documents/wiki-personal', 'template_path': '~/vimwiki/templates', 'template_default': 'default', 'template_ext': '.html'}, {'path': '~/website-wiki', 'path_html': '~/website-html'}]
+
+function! VimwikiLinkConverter(link, source_wiki_file, target_html_file)
+  return ''
+endfunction
 
